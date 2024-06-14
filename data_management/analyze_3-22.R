@@ -32,7 +32,7 @@ library(pBrackets)
 library(estimatr)
 library(ggtext)
 library(texreg)
-local <- 'C:/Users/dl0ck/OneDrive/Fall 2021/Prospectus 2022'
+local <- 'C:/Users/Path/to/Data/Prospectus 2022'
 
 ###Data
 ###Higher values == More Racist, More Counternormative, More Conservative, Male lol

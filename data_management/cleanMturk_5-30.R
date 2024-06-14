@@ -7,7 +7,7 @@ library(labelled)
 library(haven)
 library(tidyverse)
 library(OneR)
-setwd("C:/Users/dl0ck/OneDrive/Fall 2021/Prospectus work/Theory Driven Draft/Results/")
+setwd("C:/Users/Path/to/Data/Prospectus work/Theory Driven Draft/Results/")
 
 dat1 <- read.csv(file = 'dat_text.csv', header = TRUE, stringsAsFactors = FALSE)
 dat2 <- read.csv(file = 'dat_values.csv', header = TRUE, stringsAsFactors = FALSE)

@@ -30,7 +30,7 @@ library(fastDummies)
 library(lme4)
 library(coefplot)
 library(ggtext)
-setwd("C:/Users/dl0ck/OneDrive/Fall 2021/Grants/Race and Misinfo")
+setwd("C:/Users/Path/to/Data/Grants/Race and Misinfo")
 misin<-read.csv('pilot2.csv')
 misin <- misin[8:nrow(misin),]
 

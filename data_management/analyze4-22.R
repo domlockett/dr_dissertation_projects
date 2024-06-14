@@ -79,7 +79,7 @@ theme_bw1 <- function(base_size = text.size, base_family = "") {
 theme_set(theme_bw1())
 
 
-local <- 'C:/Users/dl0ck/OneDrive/Fall 2021/Prospectus 2022'
+local <- 'C:/Users/Path/to/Data/Prospectus 2022'
 
 ###Data
 ###Higher values == More Racist, More Counternormative, More Conservative, Male lol
