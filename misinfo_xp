@@ -1,0 +1,42 @@
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l c c}
+\hline
+ & Model 1 & Model 2 \\
+\hline
+(Intercept)                           & $1.99^{***}$  & $1.90^{***}$  \\
+                                      & $(0.04)$      & $(0.04)$      \\
+latino                                & $0.10$        &               \\
+                                      & $(0.08)$      &               \\
+treat\_condNo correction              & $-0.15^{**}$  & $-0.08$       \\
+                                      & $(0.06)$      & $(0.06)$      \\
+treat\_condGeneral correction         & $-0.15^{*}$   & $-0.16^{**}$  \\
+                                      & $(0.06)$      & $(0.06)$      \\
+treat\_condCultural correction        & $-0.19^{***}$ & $-0.25^{***}$ \\
+                                      & $(0.06)$      & $(0.06)$      \\
+latino:treat\_condNo correction       & $-0.04$       &               \\
+                                      & $(0.12)$      &               \\
+latino:treat\_condGeneral correction  & $0.01$        &               \\
+                                      & $(0.12)$      &               \\
+latino:treat\_condCultural correction & $-0.03$       &               \\
+                                      & $(0.12)$      &               \\
+black                                 &               & $0.35^{***}$  \\
+                                      &               & $(0.08)$      \\
+black:treat\_condNo correction        &               & $0.12$        \\
+                                      &               & $(0.11)$      \\
+black:treat\_condGeneral correction   &               & $0.02$        \\
+                                      &               & $(0.12)$      \\
+black:treat\_condCultural correction  &               & $-0.01$       \\
+                                      &               & $(0.12)$      \\
+\hline
+R$^2$                                 & $0.01$        & $0.06$        \\
+Adj. R$^2$                            & $0.01$        & $0.05$        \\
+Num. obs.                             & $1965$        & $1965$        \\
+\hline
+\multicolumn{3}{l}{\scriptsize{$^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$}}
+\end{tabular}
+\caption{Statistical models}
+\label{table:coefficients}
+\end{center}
+\end{table} 
