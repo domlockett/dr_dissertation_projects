@@ -1,3 +1,6 @@
+"""List of keywords for 20 Questions."""
+
+KEYWORDS_JSON = """
 [
   {
     "category": "things",
@@ -2368,3 +2371,4 @@
     ]
   }
 ]
+"""
